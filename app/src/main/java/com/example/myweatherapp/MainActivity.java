@@ -41,10 +41,6 @@ public class MainActivity extends AppCompatActivity {
         tvResult = findViewById(R.id.tvResult);
     }
 
-    public void create_weather() {
-
-    }
-
     public void getWeatherDetails(View view) {
         String tempUrl = "";
         String city = etCity.getText().toString().trim();
