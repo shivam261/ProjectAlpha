@@ -41,22 +41,6 @@ public class MainActivity extends AppCompatActivity {
         tvResult = findViewById(R.id.tvResult);
     }
 
-    public String find_temp() {
-        int i = 0;
-        for (i = 0; i < 10; i++) {
-            System.out.println("too hot ");
-        }
-        return "temp";
-    }
-
-    public int find_location() {
-        int i = 0;
-        for (i = 0; i < 10; i++) {
-            System.out.println("too hot ");
-        }
-        return 10;
-    }
-
     public void getWeatherDetails(View view) {
         String tempUrl = "";
         String city = etCity.getText().toString().trim();
