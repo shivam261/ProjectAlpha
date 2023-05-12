@@ -40,7 +40,36 @@ public class MainActivity extends AppCompatActivity {
         etCountry = findViewById(R.id.etCountry);
         tvResult = findViewById(R.id.tvResult);
     }
+    public void onrespose(){
+        string o="";
+        /*
 
+
+
+ JSONObject jsonResponse = new JSONObject(response);
+                                JSONArray jsonArray = jsonResponse.getJSONArray("weather");
+                                JSONObject jsonObjectWeather = jsonArray.getJSONObject(0);
+                                String description = jsonObjectWeather.getString("description");
+                                JSONObject jsonObjectMain = jsonResponse.getJSONObject("main");
+                                double temp = jsonObjectMain.getDouble("temp") - 273.15;
+                                double feelsLike = jsonObjectMain.getDouble("feels_like") - 273.15;
+                                float pressure = jsonObjectMain.getInt("pressure");
+                                int humidity = jsonObjectMain.getInt("humidity");
+                                JSONObject jsonObjectWind = jsonResponse.getJSONObject("wind");
+                                String wind = jsonObjectWind.getString("speed");
+                                JSONObject jsonObjectClouds = jsonResponse.getJSONObject("clouds");
+                                String clouds = jsonObjectClouds.getString("all");
+                                JSONObject jsonObjectSys = jsonResponse.getJSONObject("sys");
+                                String countryName = jsonObjectSys.getString("country");
+                                String cityName = jsonResponse.getString("name");
+                                tvResult.setTextColor(Color.rgb(68, 134, 199));
+         
+
+
+
+
+        */
+    }
     public void getWeatherDetails(View view) {
         String tempUrl = "";
         String city = etCity.getText().toString().trim();
